@@ -33,7 +33,7 @@ public class KafkaController {
     @GetMapping("/getMessage")
     public String getMessage(){
         simpleService.sendMessage("Hello simple message..");
-        return "SUCCESS";
+        return "DONE SUCCESS";
     }
     //http://localhost:8080/rest/api/getMessage
 
